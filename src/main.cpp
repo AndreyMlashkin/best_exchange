@@ -1,6 +1,11 @@
 #include "main_widget.h"
 
 #include <QApplication>
+#include <QtPlugin>
+
+#if defined(Q_OS_MACOS)
+Q_IMPORT_PLUGIN(QCocoaIntegrationPlugin)
+#endif
 
 int main(int argc, char* argv[])
 {
@@ -11,4 +16,3 @@ int main(int argc, char* argv[])
 
     return application.exec();
 }
-
