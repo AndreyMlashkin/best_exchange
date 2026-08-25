@@ -3,6 +3,14 @@
 Desktop application for finding the best offer when exchanging currencies
 to Russian rubles.
 
+## Demo version
+
+This repository contains a demo version of the application. Deep analytics
+will be available only in the paid version.
+
+For paid-version inquiries, contact
+[malashkin.andrey@gmail.com](mailto:malashkin.andrey@gmail.com).
+
 ## Technology
 
 - C++20
